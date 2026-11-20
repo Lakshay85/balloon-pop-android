@@ -33,7 +33,10 @@ This package contains everything needed to ship Balloon Pop v1.1.0 with the
 
 1. Install Android Studio (any recent version).
 2. Open the `BalloonPopAndroid` folder. Android Studio downloads Gradle and
-   the SDK automatically.
+   the SDK automatically. The project targets Android 16 (API 36), which
+   Google Play requires for app updates; you need Android SDK Platform 36.
+   Note: Android 16 displays apps edge-to-edge, and the game already
+   handles that (viewport-fit=cover).
 3. Run on a device or emulator (Run button). You get the debug build with
    Google test ads. Play a level, die, tap the revive button, and confirm a
    test ad shows and the revive works.
