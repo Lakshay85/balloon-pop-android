@@ -11,12 +11,12 @@ if (keystorePropsFile.exists()) {
 
 android {
     namespace 'com.midnighttales.balloonpop'
-    compileSdk 34
+    compileSdk 36
 
     defaultConfig {
         applicationId 'com.midnighttales.balloonpop'
         minSdk 24
-        targetSdk 34
+        targetSdk 36
         // IMPORTANT: versionCode must be higher than the current release in
         // Play Console (v1.0 was almost certainly versionCode 1). Check
         // Play Console > Release > App bundle explorer and bump if needed.
